@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CodeViolationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CodeViolationAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		215246E1143CC1F1008FF63F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215246E0143CC1F1008FF63F /* CoreText.framework */; };
+		215246E5143CC1FA008FF63F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215246E4143CC1FA008FF63F /* MediaPlayer.framework */; };
+		215246E7143CC1FA008FF63F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215246E6143CC1FA008FF63F /* MobileCoreServices.framework */; };
+		26CEDFE017CB9C7B009C0C26 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26CEDFDF17CB9C7A009C0C26 /* ArcGIS.bundle */; };
+		26D868D817C6578500B4F8A1 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D868D717C6578500B4F8A1 /* libc++.dylib */; };
+		26D868DA17C6579300B4F8A1 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D868D917C6579300B4F8A1 /* libc++abi.dylib */; };
+		26D868DC17C6579D00B4F8A1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D868DB17C6579D00B4F8A1 /* OpenGLES.framework */; };
+		2804200B108E984D000629CD /* CodeViolationRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28042008108E984D000629CD /* CodeViolationRootVC.m */; };
+		2804200C108E984D000629CD /* CodeViolationMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804200A108E984D000629CD /* CodeViolationMapVC.m */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		398A79781361D8A1009CF5A6 /* image165.png in Resources */ = {isa = PBXBuildFile; fileRef = 398A79771361D8A1009CF5A6 /* image165.png */; };
+		3B7C7A03133CACD20022D6CB /* CodeViolationAddInspectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C7A01133CACD20022D6CB /* CodeViolationAddInspectionVC.m */; };
+		3B7C7A08133CACEF0022D6CB /* CodeViolationInspectionDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C7A06133CACEF0022D6CB /* CodeViolationInspectionDetailsVC.m */; };
+		3B7C7A37133CB5840022D6CB /* CodeViolationInspectionDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7C7A35133CB5840022D6CB /* CodeViolationInspectionDetailsVC.xib */; };
+		3BAA972D1339BAB70047D199 /* CodeViolationMapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA972C1339BAB70047D199 /* CodeViolationMapVC.xib */; };
+		3BAA97431339BB2C0047D199 /* MapPointPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA97321339BB2C0047D199 /* MapPointPin.png */; };
+		3BAA97451339BB2C0047D199 /* RedRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA97341339BB2C0047D199 /* RedRing.png */; };
+		3BAA974C1339BB2C0047D199 /* Calender.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA973B1339BB2C0047D199 /* Calender.png */; };
+		3BAA974D1339BB2C0047D199 /* Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA973C1339BB2C0047D199 /* Wallpaper.png */; };
+		3BAA974E1339BB2C0047D199 /* About.htm in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA973D1339BB2C0047D199 /* About.htm */; };
+		3BAA97531339BB2C0047D199 /* esriLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA97421339BB2C0047D199 /* esriLogo.png */; };
+		3BAA97D51339C3150047D199 /* WebMercatorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA97D41339C3150047D199 /* WebMercatorUtil.m */; };
+		3BAA97E81339C4E20047D199 /* CodeViolationAboutUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA97E61339C4E20047D199 /* CodeViolationAboutUsVC.m */; };
+		3BAA97E91339C4E20047D199 /* CodeViolationAboutUsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA97E71339C4E20047D199 /* CodeViolationAboutUsVC.xib */; };
+		3BAA982B1339C7F80047D199 /* GpsDisplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA98281339C7F80047D199 /* GpsDisplay.png */; };
+		3BAA98411339C8EE0047D199 /* CodeViolationSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA983F1339C8EE0047D199 /* CodeViolationSettingsVC.m */; };
+		3BAA98421339C8EE0047D199 /* CodeViolationSettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA98401339C8EE0047D199 /* CodeViolationSettingsVC.xib */; };
+		3BAA9A861339EE2B0047D199 /* CodeViolationFeatureDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA9A841339EE2B0047D199 /* CodeViolationFeatureDetailsVC.m */; };
+		3BAA9BE6133A0CDF0047D199 /* NetworkDisconnectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA9BE5133A0CDF0047D199 /* NetworkDisconnectionVC.xib */; };
+		3BB178891338B19F00924E3D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB178881338B19F00924E3D /* CoreLocation.framework */; };
+		3BB1788D1338B1A400924E3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1788C1338B1A400924E3D /* QuartzCore.framework */; };
+		3BB178911338B1B000924E3D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB178901338B1B000924E3D /* libz.dylib */; };
+		3BB178F41338B4F100924E3D /* CodeViolationConfigSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB178F31338B4F100924E3D /* CodeViolationConfigSettings.m */; };
+		3BB179201338B60C00924E3D /* NetworkDisconnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1791C1338B60C00924E3D /* NetworkDisconnectionVC.m */; };
+		3BB179211338B60C00924E3D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1791F1338B60C00924E3D /* Reachability.m */; };
+		3BB1795E1338B8A900924E3D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1795D1338B8A900924E3D /* SystemConfiguration.framework */; };
+		3BB60683134ED3E30091B15B /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB60681134ED3E30091B15B /* Default-Landscape.png */; };
+		3BB60684134ED3E30091B15B /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB60682134ED3E30091B15B /* Default-Portrait.png */; };
+		3BB60686134ED3E90091B15B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB60685134ED3E90091B15B /* icon.png */; };
+		3BBA049E1341E746003BFD33 /* CodeViolationAddInspectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BBA049D1341E746003BFD33 /* CodeViolationAddInspectionVC.xib */; };
+		3BC57E83133B400000C3CC54 /* CodeViolationAddViolationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BC57E82133B400000C3CC54 /* CodeViolationAddViolationVC.xib */; };
+		3BC57E87133B42C700C3CC54 /* CodeViolationAddViolationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC57E86133B42C700C3CC54 /* CodeViolationAddViolationVC.m */; };
+		3BC58099133B834200C3CC54 /* CodeViolationFeatureDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BC58098133B834200C3CC54 /* CodeViolationFeatureDetailsVC.xib */; };
+		3BF78254134C946900E9EF27 /* CodeViolationRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF78253134C946900E9EF27 /* CodeViolationRootVC.xib */; };
+		C4508D5E16DE4502007FC5F4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4508D5D16DE4502007FC5F4 /* Security.framework */; };
+		C4B5F0C016EF06E7006AF98A /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B5F0BE16EF0689006AF98A /* Default-Landscape@2x~ipad.png */; };
+		C4B5F0C316EF27D4006AF98A /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B5F0BC16EF067F006AF98A /* Default-Portrait@2x~ipad.png */; };
+		C4B5F0C516EF293D006AF98A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B5F0C416EF293D006AF98A /* icon@2x.png */; };
+		C4B76A3716E5CA20003B8EEE /* Layers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A3616E5CA20003B8EEE /* Layers@2x.png */; };
+		C4B76A3916E5CA30003B8EEE /* image165@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A3816E5CA30003B8EEE /* image165@2x.png */; };
+		C4B76A3B16E5CA3C003B8EEE /* Picker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A3A16E5CA3C003B8EEE /* Picker@2x.png */; };
+		C4B76A3D16E5CA48003B8EEE /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A3C16E5CA48003B8EEE /* backButton@2x.png */; };
+		C4B76A3F16E5CA5D003B8EEE /* openViolation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A3E16E5CA5D003B8EEE /* openViolation@2x.png */; };
+		C4B76A4116E5CA77003B8EEE /* noAttachment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A4016E5CA77003B8EEE /* noAttachment@2x.png */; };
+		C4B76A4316E5CA80003B8EEE /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A4216E5CA80003B8EEE /* loading@2x.png */; };
+		C4B76A4516E5CAD0003B8EEE /* closeViolation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A4416E5CAD0003B8EEE /* closeViolation@2x.png */; };
+		C4B76A4716E5CAD8003B8EEE /* Add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A4616E5CAD8003B8EEE /* Add@2x.png */; };
+		C4B76A4916E5CAE4003B8EEE /* EditInspection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A4816E5CAE4003B8EEE /* EditInspection@2x.png */; };
+		C4B76A4B16E5CAEB003B8EEE /* 86-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A4A16E5CAEB003B8EEE /* 86-camera@2x.png */; };
+		C4B76A4D16E5CAF8003B8EEE /* MapPointPin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A4C16E5CAF8003B8EEE /* MapPointPin@2x.png */; };
+		C4B76A4F16E5CC79003B8EEE /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A4E16E5CC79003B8EEE /* cross@2x.png */; };
+		C4B76A5116E5CC84003B8EEE /* RedRing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A5016E5CC84003B8EEE /* RedRing@2x.png */; };
+		C4B76A5316E5CC93003B8EEE /* Calender@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A5216E5CC93003B8EEE /* Calender@2x.png */; };
+		C4B76A5516E5CC9C003B8EEE /* Wallpaper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A5416E5CC9C003B8EEE /* Wallpaper@2x.png */; };
+		C4B76A5716E5CCFA003B8EEE /* GPS_On@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A5616E5CCFA003B8EEE /* GPS_On@2x.png */; };
+		C4B76A5916E5CD00003B8EEE /* GPS_Off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A5816E5CD00003B8EEE /* GPS_Off@2x.png */; };
+		C4B76A5B16E5CD0A003B8EEE /* GpsDisplay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B76A5A16E5CD0A003B8EEE /* GpsDisplay@2x.png */; };
+		C4D52E2916EDE0EA00646656 /* esriLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D52E2816EDE0E900646656 /* esriLogo@2x.png */; };
+		E32988C113696B9F00E04DC8 /* GPS_Off.png in Resources */ = {isa = PBXBuildFile; fileRef = E32988BE13696B9F00E04DC8 /* GPS_Off.png */; };
+		E32988C213696B9F00E04DC8 /* GPS_On.png in Resources */ = {isa = PBXBuildFile; fileRef = E32988BF13696B9F00E04DC8 /* GPS_On.png */; };
+		E329890213696E7C00E04DC8 /* Layers.png in Resources */ = {isa = PBXBuildFile; fileRef = E329890113696E7C00E04DC8 /* Layers.png */; };
+		E35E701213585AD600203F9E /* Picker.png in Resources */ = {isa = PBXBuildFile; fileRef = E35E701113585AD600203F9E /* Picker.png */; };
+		E37D9EFB13615A25001823E2 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E37D9EFA13615A25001823E2 /* backButton.png */; };
+		E38E5FE613570D8E00F66B5F /* openViolation.png in Resources */ = {isa = PBXBuildFile; fileRef = E38E5FE513570D8E00F66B5F /* openViolation.png */; };
+		E38E60F6135720E600F66B5F /* closeViolation.png in Resources */ = {isa = PBXBuildFile; fileRef = E38E60F5135720E600F66B5F /* closeViolation.png */; };
+		E38E60F81357212500F66B5F /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = E38E60F71357212500F66B5F /* Add.png */; };
+		E38E610F1357224800F66B5F /* EditInspection.png in Resources */ = {isa = PBXBuildFile; fileRef = E38E610E1357224800F66B5F /* EditInspection.png */; };
+		E38E611D1357238A00F66B5F /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = E38E611C1357238A00F66B5F /* cross.png */; };
+		E38ED9E8137823A2000A2FFA /* noAttachment.png in Resources */ = {isa = PBXBuildFile; fileRef = E38ED9E7137823A2000A2FFA /* noAttachment.png */; };
+		E3A577B01374050C00920D86 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A577AF1374050C00920D86 /* loading.png */; };
+		E3C1733B134AE75F004292CA /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C1733A134AE75F004292CA /* 86-camera.png */; };
+		E3D7D8E7134D9BEF007D23AE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3D7D8E5134D9BEF007D23AE /* Localizable.strings */; };
+		E3E6DCDA136053D000973732 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = E3E6DCD9136053D000973732 /* iTunesArtwork */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CodeViolationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CodeViolationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationAppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		215246E0143CC1F1008FF63F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		215246E4143CC1FA008FF63F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		215246E6143CC1FA008FF63F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		215246E8143CC209008FF63F /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		26CEDFDF17CB9C7A009C0C26 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
+		26D868D717C6578500B4F8A1 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		26D868D917C6579300B4F8A1 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		26D868DB17C6579D00B4F8A1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		26D868DD17C657AA00B4F8A1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		26FC6A871754EC3B00F1C5A1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		28042007108E984D000629CD /* CodeViolationRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationRootVC.h; sourceTree = "<group>"; };
+		28042008108E984D000629CD /* CodeViolationRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationRootVC.m; sourceTree = "<group>"; };
+		28042009108E984D000629CD /* CodeViolationMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationMapVC.h; sourceTree = "<group>"; };
+		2804200A108E984D000629CD /* CodeViolationMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationMapVC.m; sourceTree = "<group>"; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* CodeViolation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolation_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		398A79771361D8A1009CF5A6 /* image165.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image165.png; sourceTree = "<group>"; };
+		39A2404F1361B9080072D033 /* CodeViolation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeViolation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7C7A00133CACD20022D6CB /* CodeViolationAddInspectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationAddInspectionVC.h; sourceTree = "<group>"; };
+		3B7C7A01133CACD20022D6CB /* CodeViolationAddInspectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationAddInspectionVC.m; sourceTree = "<group>"; };
+		3B7C7A05133CACEF0022D6CB /* CodeViolationInspectionDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationInspectionDetailsVC.h; sourceTree = "<group>"; };
+		3B7C7A06133CACEF0022D6CB /* CodeViolationInspectionDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationInspectionDetailsVC.m; sourceTree = "<group>"; };
+		3B7C7A35133CB5840022D6CB /* CodeViolationInspectionDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeViolationInspectionDetailsVC.xib; sourceTree = "<group>"; };
+		3BAA972C1339BAB70047D199 /* CodeViolationMapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeViolationMapVC.xib; sourceTree = "<group>"; };
+		3BAA97321339BB2C0047D199 /* MapPointPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapPointPin.png; sourceTree = "<group>"; };
+		3BAA97341339BB2C0047D199 /* RedRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedRing.png; sourceTree = "<group>"; };
+		3BAA973B1339BB2C0047D199 /* Calender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calender.png; sourceTree = "<group>"; };
+		3BAA973C1339BB2C0047D199 /* Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wallpaper.png; sourceTree = "<group>"; };
+		3BAA973D1339BB2C0047D199 /* About.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.htm; sourceTree = "<group>"; };
+		3BAA97421339BB2C0047D199 /* esriLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esriLogo.png; sourceTree = "<group>"; };
+		3BAA97D31339C3150047D199 /* WebMercatorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebMercatorUtil.h; sourceTree = "<group>"; };
+		3BAA97D41339C3150047D199 /* WebMercatorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebMercatorUtil.m; sourceTree = "<group>"; };
+		3BAA97E51339C4E20047D199 /* CodeViolationAboutUsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationAboutUsVC.h; sourceTree = "<group>"; };
+		3BAA97E61339C4E20047D199 /* CodeViolationAboutUsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationAboutUsVC.m; sourceTree = "<group>"; };
+		3BAA97E71339C4E20047D199 /* CodeViolationAboutUsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CodeViolationAboutUsVC.xib; path = Classes/CodeViolationAboutUsVC.xib; sourceTree = "<group>"; };
+		3BAA98281339C7F80047D199 /* GpsDisplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GpsDisplay.png; sourceTree = "<group>"; };
+		3BAA983E1339C8EE0047D199 /* CodeViolationSettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationSettingsVC.h; sourceTree = "<group>"; };
+		3BAA983F1339C8EE0047D199 /* CodeViolationSettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationSettingsVC.m; sourceTree = "<group>"; };
+		3BAA98401339C8EE0047D199 /* CodeViolationSettingsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CodeViolationSettingsVC.xib; path = Classes/CodeViolationSettingsVC.xib; sourceTree = "<group>"; };
+		3BAA9A831339EE2B0047D199 /* CodeViolationFeatureDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationFeatureDetailsVC.h; sourceTree = "<group>"; };
+		3BAA9A841339EE2B0047D199 /* CodeViolationFeatureDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationFeatureDetailsVC.m; sourceTree = "<group>"; };
+		3BAA9BE5133A0CDF0047D199 /* NetworkDisconnectionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkDisconnectionVC.xib; sourceTree = "<group>"; };
+		3BB178881338B19F00924E3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3BB1788C1338B1A400924E3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3BB178901338B1B000924E3D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3BB178F21338B4F100924E3D /* CodeViolationConfigSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationConfigSettings.h; sourceTree = "<group>"; };
+		3BB178F31338B4F100924E3D /* CodeViolationConfigSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationConfigSettings.m; sourceTree = "<group>"; };
+		3BB1791B1338B60C00924E3D /* NetworkDisconnectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDisconnectionVC.h; sourceTree = "<group>"; };
+		3BB1791C1338B60C00924E3D /* NetworkDisconnectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkDisconnectionVC.m; sourceTree = "<group>"; };
+		3BB1791E1338B60C00924E3D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3BB1791F1338B60C00924E3D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3BB1795D1338B8A900924E3D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3BB60681134ED3E30091B15B /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		3BB60682134ED3E30091B15B /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		3BB60685134ED3E90091B15B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3BBA049D1341E746003BFD33 /* CodeViolationAddInspectionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeViolationAddInspectionVC.xib; sourceTree = "<group>"; };
+		3BC57E82133B400000C3CC54 /* CodeViolationAddViolationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeViolationAddViolationVC.xib; sourceTree = "<group>"; };
+		3BC57E85133B42C700C3CC54 /* CodeViolationAddViolationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViolationAddViolationVC.h; sourceTree = "<group>"; };
+		3BC57E86133B42C700C3CC54 /* CodeViolationAddViolationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViolationAddViolationVC.m; sourceTree = "<group>"; };
+		3BC58098133B834200C3CC54 /* CodeViolationFeatureDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeViolationFeatureDetailsVC.xib; sourceTree = "<group>"; };
+		3BF78253134C946900E9EF27 /* CodeViolationRootVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeViolationRootVC.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CodeViolation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CodeViolation-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C4508D5D16DE4502007FC5F4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C4B5F0BC16EF067F006AF98A /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		C4B5F0BE16EF0689006AF98A /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		C4B5F0C416EF293D006AF98A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		C4B76A3616E5CA20003B8EEE /* Layers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layers@2x.png"; sourceTree = "<group>"; };
+		C4B76A3816E5CA30003B8EEE /* image165@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image165@2x.png"; sourceTree = "<group>"; };
+		C4B76A3A16E5CA3C003B8EEE /* Picker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picker@2x.png"; sourceTree = "<group>"; };
+		C4B76A3C16E5CA48003B8EEE /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@2x.png"; sourceTree = "<group>"; };
+		C4B76A3E16E5CA5D003B8EEE /* openViolation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "openViolation@2x.png"; sourceTree = "<group>"; };
+		C4B76A4016E5CA77003B8EEE /* noAttachment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noAttachment@2x.png"; sourceTree = "<group>"; };
+		C4B76A4216E5CA80003B8EEE /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
+		C4B76A4416E5CAD0003B8EEE /* closeViolation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeViolation@2x.png"; sourceTree = "<group>"; };
+		C4B76A4616E5CAD8003B8EEE /* Add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add@2x.png"; sourceTree = "<group>"; };
+		C4B76A4816E5CAE4003B8EEE /* EditInspection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EditInspection@2x.png"; sourceTree = "<group>"; };
+		C4B76A4A16E5CAEB003B8EEE /* 86-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera@2x.png"; sourceTree = "<group>"; };
+		C4B76A4C16E5CAF8003B8EEE /* MapPointPin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapPointPin@2x.png"; sourceTree = "<group>"; };
+		C4B76A4E16E5CC79003B8EEE /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		C4B76A5016E5CC84003B8EEE /* RedRing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedRing@2x.png"; sourceTree = "<group>"; };
+		C4B76A5216E5CC93003B8EEE /* Calender@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calender@2x.png"; sourceTree = "<group>"; };
+		C4B76A5416E5CC9C003B8EEE /* Wallpaper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wallpaper@2x.png"; sourceTree = "<group>"; };
+		C4B76A5616E5CCFA003B8EEE /* GPS_On@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPS_On@2x.png"; sourceTree = "<group>"; };
+		C4B76A5816E5CD00003B8EEE /* GPS_Off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPS_Off@2x.png"; sourceTree = "<group>"; };
+		C4B76A5A16E5CD0A003B8EEE /* GpsDisplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GpsDisplay@2x.png"; sourceTree = "<group>"; };
+		C4D52E2816EDE0E900646656 /* esriLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "esriLogo@2x.png"; sourceTree = "<group>"; };
+		E32988BE13696B9F00E04DC8 /* GPS_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPS_Off.png; sourceTree = "<group>"; };
+		E32988BF13696B9F00E04DC8 /* GPS_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPS_On.png; sourceTree = "<group>"; };
+		E329890113696E7C00E04DC8 /* Layers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Layers.png; sourceTree = "<group>"; };
+		E35E701113585AD600203F9E /* Picker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Picker.png; sourceTree = "<group>"; };
+		E37D9EFA13615A25001823E2 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		E38E5FE513570D8E00F66B5F /* openViolation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openViolation.png; sourceTree = "<group>"; };
+		E38E60F5135720E600F66B5F /* closeViolation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeViolation.png; sourceTree = "<group>"; };
+		E38E60F71357212500F66B5F /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		E38E610E1357224800F66B5F /* EditInspection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditInspection.png; sourceTree = "<group>"; };
+		E38E611C1357238A00F66B5F /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		E38ED9E7137823A2000A2FFA /* noAttachment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noAttachment.png; sourceTree = "<group>"; };
+		E3A577AF1374050C00920D86 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		E3C1733A134AE75F004292CA /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
+		E3D7D8E6134D9BEF007D23AE /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		E3E6DCD9136053D000973732 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D868DC17C6579D00B4F8A1 /* OpenGLES.framework in Frameworks */,
+				26D868DA17C6579300B4F8A1 /* libc++abi.dylib in Frameworks */,
+				26D868D817C6578500B4F8A1 /* libc++.dylib in Frameworks */,
+				C4508D5E16DE4502007FC5F4 /* Security.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				3BB178891338B19F00924E3D /* CoreLocation.framework in Frameworks */,
+				3BB1788D1338B1A400924E3D /* QuartzCore.framework in Frameworks */,
+				3BB178911338B1B000924E3D /* libz.dylib in Frameworks */,
+				3BB1795E1338B8A900924E3D /* SystemConfiguration.framework in Frameworks */,
+				215246E1143CC1F1008FF63F /* CoreText.framework in Frameworks */,
+				215246E5143CC1FA008FF63F /* MediaPlayer.framework in Frameworks */,
+				215246E7143CC1FA008FF63F /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3BB178E71338B4BD00924E3D /* App Delegate */,
+				3BAA97CF1339C2C70047D199 /* Web Mercator Utility */,
+				3BB1791A1338B60C00924E3D /* Network Disconnectivity */,
+				3BB1791D1338B60C00924E3D /* Reachability */,
+				3BB178E61338B4B600924E3D /* Configuration Settings */,
+				3BB178E81338B4C900924E3D /* View Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A2404F1361B9080072D033 /* CodeViolation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* CodeViolation_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26CEDFDF17CB9C7A009C0C26 /* ArcGIS.bundle */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				3BB6067B134ED39D0091B15B /* About */,
+				E3D7D8E4134D9BEF007D23AE /* en.lproj */,
+				3BBA040A1341DB20003BFD33 /* nibs */,
+				3BAA97311339BB2C0047D199 /* Images */,
+				8D1107310486CEB800E47090 /* CodeViolation-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4508D5D16DE4502007FC5F4 /* Security.framework */,
+				26D868DD17C657AA00B4F8A1 /* StoreKit.framework */,
+				26D868DB17C6579D00B4F8A1 /* OpenGLES.framework */,
+				26D868D917C6579300B4F8A1 /* libc++abi.dylib */,
+				26D868D717C6578500B4F8A1 /* libc++.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				3BB178881338B19F00924E3D /* CoreLocation.framework */,
+				3BB1788C1338B1A400924E3D /* QuartzCore.framework */,
+				3BB178901338B1B000924E3D /* libz.dylib */,
+				3BB1795D1338B8A900924E3D /* SystemConfiguration.framework */,
+				215246E0143CC1F1008FF63F /* CoreText.framework */,
+				215246E4143CC1FA008FF63F /* MediaPlayer.framework */,
+				215246E6143CC1FA008FF63F /* MobileCoreServices.framework */,
+				215246E8143CC209008FF63F /* libstdc++.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BAA97311339BB2C0047D199 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				26FC6A871754EC3B00F1C5A1 /* icon.png */,
+				C4B5F0C416EF293D006AF98A /* icon@2x.png */,
+				C4B5F0BE16EF0689006AF98A /* Default-Landscape@2x~ipad.png */,
+				C4B5F0BC16EF067F006AF98A /* Default-Portrait@2x~ipad.png */,
+				E38ED9E7137823A2000A2FFA /* noAttachment.png */,
+				C4B76A4016E5CA77003B8EEE /* noAttachment@2x.png */,
+				E3A577AF1374050C00920D86 /* loading.png */,
+				C4B76A4216E5CA80003B8EEE /* loading@2x.png */,
+				E3E6DCD9136053D000973732 /* iTunesArtwork */,
+				3BB60687134ED3EC0091B15B /* Icon and Splash Screen */,
+				3BAA98251339C7F80047D199 /* GPS */,
+				E329890113696E7C00E04DC8 /* Layers.png */,
+				C4B76A3616E5CA20003B8EEE /* Layers@2x.png */,
+				398A79771361D8A1009CF5A6 /* image165.png */,
+				C4B76A3816E5CA30003B8EEE /* image165@2x.png */,
+				E35E701113585AD600203F9E /* Picker.png */,
+				C4B76A3A16E5CA3C003B8EEE /* Picker@2x.png */,
+				E37D9EFA13615A25001823E2 /* backButton.png */,
+				C4B76A3C16E5CA48003B8EEE /* backButton@2x.png */,
+				E38E5FE513570D8E00F66B5F /* openViolation.png */,
+				C4B76A3E16E5CA5D003B8EEE /* openViolation@2x.png */,
+				E38E60F5135720E600F66B5F /* closeViolation.png */,
+				C4B76A4416E5CAD0003B8EEE /* closeViolation@2x.png */,
+				E38E60F71357212500F66B5F /* Add.png */,
+				C4B76A4616E5CAD8003B8EEE /* Add@2x.png */,
+				E38E610E1357224800F66B5F /* EditInspection.png */,
+				C4B76A4816E5CAE4003B8EEE /* EditInspection@2x.png */,
+				E3C1733A134AE75F004292CA /* 86-camera.png */,
+				C4B76A4A16E5CAEB003B8EEE /* 86-camera@2x.png */,
+				3BAA97321339BB2C0047D199 /* MapPointPin.png */,
+				C4B76A4C16E5CAF8003B8EEE /* MapPointPin@2x.png */,
+				E38E611C1357238A00F66B5F /* cross.png */,
+				C4B76A4E16E5CC79003B8EEE /* cross@2x.png */,
+				3BAA97341339BB2C0047D199 /* RedRing.png */,
+				C4B76A5016E5CC84003B8EEE /* RedRing@2x.png */,
+				3BAA973B1339BB2C0047D199 /* Calender.png */,
+				C4B76A5216E5CC93003B8EEE /* Calender@2x.png */,
+				3BAA973C1339BB2C0047D199 /* Wallpaper.png */,
+				C4B76A5416E5CC9C003B8EEE /* Wallpaper@2x.png */,
+				3BAA97421339BB2C0047D199 /* esriLogo.png */,
+				C4D52E2816EDE0E900646656 /* esriLogo@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3BAA97CF1339C2C70047D199 /* Web Mercator Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3BAA97D31339C3150047D199 /* WebMercatorUtil.h */,
+				3BAA97D41339C3150047D199 /* WebMercatorUtil.m */,
+			);
+			name = "Web Mercator Utility";
+			sourceTree = "<group>";
+		};
+		3BAA98251339C7F80047D199 /* GPS */ = {
+			isa = PBXGroup;
+			children = (
+				E32988BE13696B9F00E04DC8 /* GPS_Off.png */,
+				C4B76A5816E5CD00003B8EEE /* GPS_Off@2x.png */,
+				E32988BF13696B9F00E04DC8 /* GPS_On.png */,
+				C4B76A5616E5CCFA003B8EEE /* GPS_On@2x.png */,
+				3BAA98281339C7F80047D199 /* GpsDisplay.png */,
+				C4B76A5A16E5CD0A003B8EEE /* GpsDisplay@2x.png */,
+			);
+			name = GPS;
+			sourceTree = "<group>";
+		};
+		3BB178E61338B4B600924E3D /* Configuration Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3BB178F21338B4F100924E3D /* CodeViolationConfigSettings.h */,
+				3BB178F31338B4F100924E3D /* CodeViolationConfigSettings.m */,
+			);
+			name = "Configuration Settings";
+			sourceTree = "<group>";
+		};
+		3BB178E71338B4BD00924E3D /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CodeViolationAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CodeViolationAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		3BB178E81338B4C900924E3D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28042009108E984D000629CD /* CodeViolationMapVC.h */,
+				2804200A108E984D000629CD /* CodeViolationMapVC.m */,
+				28042007108E984D000629CD /* CodeViolationRootVC.h */,
+				28042008108E984D000629CD /* CodeViolationRootVC.m */,
+				3BAA9A831339EE2B0047D199 /* CodeViolationFeatureDetailsVC.h */,
+				3BAA9A841339EE2B0047D199 /* CodeViolationFeatureDetailsVC.m */,
+				3BC57E85133B42C700C3CC54 /* CodeViolationAddViolationVC.h */,
+				3BC57E86133B42C700C3CC54 /* CodeViolationAddViolationVC.m */,
+				3B7C7A00133CACD20022D6CB /* CodeViolationAddInspectionVC.h */,
+				3B7C7A01133CACD20022D6CB /* CodeViolationAddInspectionVC.m */,
+				3B7C7A05133CACEF0022D6CB /* CodeViolationInspectionDetailsVC.h */,
+				3B7C7A06133CACEF0022D6CB /* CodeViolationInspectionDetailsVC.m */,
+				3BAA983E1339C8EE0047D199 /* CodeViolationSettingsVC.h */,
+				3BAA983F1339C8EE0047D199 /* CodeViolationSettingsVC.m */,
+				3BAA97E51339C4E20047D199 /* CodeViolationAboutUsVC.h */,
+				3BAA97E61339C4E20047D199 /* CodeViolationAboutUsVC.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3BB1791A1338B60C00924E3D /* Network Disconnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1791B1338B60C00924E3D /* NetworkDisconnectionVC.h */,
+				3BB1791C1338B60C00924E3D /* NetworkDisconnectionVC.m */,
+			);
+			name = "Network Disconnectivity";
+			sourceTree = "<group>";
+		};
+		3BB1791D1338B60C00924E3D /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1791E1338B60C00924E3D /* Reachability.h */,
+				3BB1791F1338B60C00924E3D /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		3BB6067B134ED39D0091B15B /* About */ = {
+			isa = PBXGroup;
+			children = (
+				3BAA973D1339BB2C0047D199 /* About.htm */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		3BB60687134ED3EC0091B15B /* Icon and Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3BB60685134ED3E90091B15B /* icon.png */,
+				3BB60681134ED3E30091B15B /* Default-Landscape.png */,
+				3BB60682134ED3E30091B15B /* Default-Portrait.png */,
+			);
+			name = "Icon and Splash Screen";
+			sourceTree = "<group>";
+		};
+		3BBA040A1341DB20003BFD33 /* nibs */ = {
+			isa = PBXGroup;
+			children = (
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				3BAA9BE5133A0CDF0047D199 /* NetworkDisconnectionVC.xib */,
+				3BAA972C1339BAB70047D199 /* CodeViolationMapVC.xib */,
+				3BF78253134C946900E9EF27 /* CodeViolationRootVC.xib */,
+				3BC58098133B834200C3CC54 /* CodeViolationFeatureDetailsVC.xib */,
+				3BC57E82133B400000C3CC54 /* CodeViolationAddViolationVC.xib */,
+				3BBA049D1341E746003BFD33 /* CodeViolationAddInspectionVC.xib */,
+				3B7C7A35133CB5840022D6CB /* CodeViolationInspectionDetailsVC.xib */,
+				3BAA98401339C8EE0047D199 /* CodeViolationSettingsVC.xib */,
+				3BAA97E71339C4E20047D199 /* CodeViolationAboutUsVC.xib */,
+			);
+			name = nibs;
+			sourceTree = "<group>";
+		};
+		E3D7D8E4134D9BEF007D23AE /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7D8E5134D9BEF007D23AE /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CodeViolation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CodeViolation" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeViolation;
+			productName = CodeViolation;
+			productReference = 39A2404F1361B9080072D033 /* CodeViolation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CodeViolation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CodeViolation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				3BAA972D1339BAB70047D199 /* CodeViolationMapVC.xib in Resources */,
+				3BAA97431339BB2C0047D199 /* MapPointPin.png in Resources */,
+				3BAA97451339BB2C0047D199 /* RedRing.png in Resources */,
+				3BAA974C1339BB2C0047D199 /* Calender.png in Resources */,
+				3BAA974D1339BB2C0047D199 /* Wallpaper.png in Resources */,
+				3BAA974E1339BB2C0047D199 /* About.htm in Resources */,
+				3BAA97531339BB2C0047D199 /* esriLogo.png in Resources */,
+				3BAA97E91339C4E20047D199 /* CodeViolationAboutUsVC.xib in Resources */,
+				3BAA982B1339C7F80047D199 /* GpsDisplay.png in Resources */,
+				3BAA98421339C8EE0047D199 /* CodeViolationSettingsVC.xib in Resources */,
+				3BAA9BE6133A0CDF0047D199 /* NetworkDisconnectionVC.xib in Resources */,
+				3BC57E83133B400000C3CC54 /* CodeViolationAddViolationVC.xib in Resources */,
+				3BC58099133B834200C3CC54 /* CodeViolationFeatureDetailsVC.xib in Resources */,
+				3B7C7A37133CB5840022D6CB /* CodeViolationInspectionDetailsVC.xib in Resources */,
+				3BBA049E1341E746003BFD33 /* CodeViolationAddInspectionVC.xib in Resources */,
+				E3C1733B134AE75F004292CA /* 86-camera.png in Resources */,
+				3BF78254134C946900E9EF27 /* CodeViolationRootVC.xib in Resources */,
+				E3D7D8E7134D9BEF007D23AE /* Localizable.strings in Resources */,
+				3BB60683134ED3E30091B15B /* Default-Landscape.png in Resources */,
+				3BB60684134ED3E30091B15B /* Default-Portrait.png in Resources */,
+				3BB60686134ED3E90091B15B /* icon.png in Resources */,
+				E38E5FE613570D8E00F66B5F /* openViolation.png in Resources */,
+				E38E60F6135720E600F66B5F /* closeViolation.png in Resources */,
+				E38E60F81357212500F66B5F /* Add.png in Resources */,
+				E38E610F1357224800F66B5F /* EditInspection.png in Resources */,
+				E38E611D1357238A00F66B5F /* cross.png in Resources */,
+				E35E701213585AD600203F9E /* Picker.png in Resources */,
+				E3E6DCDA136053D000973732 /* iTunesArtwork in Resources */,
+				E37D9EFB13615A25001823E2 /* backButton.png in Resources */,
+				398A79781361D8A1009CF5A6 /* image165.png in Resources */,
+				E32988C113696B9F00E04DC8 /* GPS_Off.png in Resources */,
+				E32988C213696B9F00E04DC8 /* GPS_On.png in Resources */,
+				E329890213696E7C00E04DC8 /* Layers.png in Resources */,
+				E3A577B01374050C00920D86 /* loading.png in Resources */,
+				E38ED9E8137823A2000A2FFA /* noAttachment.png in Resources */,
+				C4B76A3716E5CA20003B8EEE /* Layers@2x.png in Resources */,
+				C4B76A3916E5CA30003B8EEE /* image165@2x.png in Resources */,
+				C4B76A3B16E5CA3C003B8EEE /* Picker@2x.png in Resources */,
+				C4B76A3D16E5CA48003B8EEE /* backButton@2x.png in Resources */,
+				C4B76A3F16E5CA5D003B8EEE /* openViolation@2x.png in Resources */,
+				C4B76A4116E5CA77003B8EEE /* noAttachment@2x.png in Resources */,
+				C4B76A4316E5CA80003B8EEE /* loading@2x.png in Resources */,
+				C4B76A4516E5CAD0003B8EEE /* closeViolation@2x.png in Resources */,
+				C4B76A4716E5CAD8003B8EEE /* Add@2x.png in Resources */,
+				C4B76A4916E5CAE4003B8EEE /* EditInspection@2x.png in Resources */,
+				C4B76A4B16E5CAEB003B8EEE /* 86-camera@2x.png in Resources */,
+				C4B76A4D16E5CAF8003B8EEE /* MapPointPin@2x.png in Resources */,
+				C4B76A4F16E5CC79003B8EEE /* cross@2x.png in Resources */,
+				C4B76A5116E5CC84003B8EEE /* RedRing@2x.png in Resources */,
+				C4B76A5316E5CC93003B8EEE /* Calender@2x.png in Resources */,
+				C4B76A5516E5CC9C003B8EEE /* Wallpaper@2x.png in Resources */,
+				C4B76A5716E5CCFA003B8EEE /* GPS_On@2x.png in Resources */,
+				C4B76A5916E5CD00003B8EEE /* GPS_Off@2x.png in Resources */,
+				C4B76A5B16E5CD0A003B8EEE /* GpsDisplay@2x.png in Resources */,
+				C4D52E2916EDE0EA00646656 /* esriLogo@2x.png in Resources */,
+				C4B5F0C016EF06E7006AF98A /* Default-Landscape@2x~ipad.png in Resources */,
+				C4B5F0C316EF27D4006AF98A /* Default-Portrait@2x~ipad.png in Resources */,
+				C4B5F0C516EF293D006AF98A /* icon@2x.png in Resources */,
+				26CEDFE017CB9C7B009C0C26 /* ArcGIS.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CodeViolationAppDelegate.m in Sources */,
+				2804200B108E984D000629CD /* CodeViolationRootVC.m in Sources */,
+				2804200C108E984D000629CD /* CodeViolationMapVC.m in Sources */,
+				3BB178F41338B4F100924E3D /* CodeViolationConfigSettings.m in Sources */,
+				3BB179201338B60C00924E3D /* NetworkDisconnectionVC.m in Sources */,
+				3BB179211338B60C00924E3D /* Reachability.m in Sources */,
+				3BAA97D51339C3150047D199 /* WebMercatorUtil.m in Sources */,
+				3BAA97E81339C4E20047D199 /* CodeViolationAboutUsVC.m in Sources */,
+				3BAA98411339C8EE0047D199 /* CodeViolationSettingsVC.m in Sources */,
+				3BAA9A861339EE2B0047D199 /* CodeViolationFeatureDetailsVC.m in Sources */,
+				3BC57E87133B42C700C3CC54 /* CodeViolationAddViolationVC.m in Sources */,
+				3B7C7A03133CACD20022D6CB /* CodeViolationAddInspectionVC.m in Sources */,
+				3B7C7A08133CACEF0022D6CB /* CodeViolationInspectionDetailsVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3D7D8E5134D9BEF007D23AE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D7D8E6134D9BEF007D23AE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayprakash Dubey (V3EXT4S2VE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayprakash Dubey (V3EXT4S2VE)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CodeViolation_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CodeViolation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = CodeViolation;
+				PROVISIONING_PROFILE = "2D9DF4C8-79A0-4C14-BF5D-524DA1B56AA7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2D9DF4C8-79A0-4C14-BF5D-524DA1B56AA7";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayprakash Dubey (V3EXT4S2VE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayprakash Dubey (V3EXT4S2VE)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CodeViolation_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CodeViolation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = CodeViolation;
+				PROVISIONING_PROFILE = "2D9DF4C8-79A0-4C14-BF5D-524DA1B56AA7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2D9DF4C8-79A0-4C14-BF5D-524DA1B56AA7";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CyberTech Systems And Software Inc";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/ios.sdk/usr/local/lib";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6F13B5BC-286E-4B20-B304-3BB43E09F7A0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CodeViolation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CodeViolation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ | Version 10.1.1
+ | Copyright 2012 Esri
+ |
+ | Licensed under the Apache License, Version 2.0 (the "License");
+ | you may not use this file except in compliance with the License.
+ | You may obtain a copy of the License at
+ |
+ |    http://www.apache.org/licenses/LICENSE-2.0
+ |
+ | Unless required by applicable law or agreed to in writing, software
+ | distributed under the License is distributed on an "AS IS" BASIS,
+ | WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ | See the License for the specific language governing permissions and
+ | limitations under the License.
+-->
+<dict>
+  <key>DefaultExtent</key>
+  <string>-9815317.353,5126118.542,-9811259.298,5127735.811</string>
+  <key>ParcelBaseMapURL</key>
+  <string>http://tryitlive.arcgis.com/arcgis/rest/services/GeneralPurpose/MapServer</string>
+  <key>HybridBaseMapURL</key>
+  <string>http://tryitlive.arcgis.com/arcgis/rest/services/ImageryHybrid/MapServer</string>
+  <key>ViolationFeatureLayerURL</key>
+  <string>http://tryitlive.arcgis.com/arcgis/rest/services/LandUseViolations/FeatureServer/0</string>
+  <key>InspectionFeatureLayerURL</key>
+  <string>http://tryitlive.arcgis.com/arcgis/rest/services/LandUseViolations/FeatureServer/1</string>
+  <key>ViolationsMapServerURL</key>
+  <string>http://tryitlive.arcgis.com/arcgis/rest/services/LandUseViolations/MapServer/</string>
+  <key>ViolationsFeatureLayerId</key>
+  <string>0</string>
+  <key>SummaryPanelTitle</key>
+  <string>Violations</string>
+  <key>Locator</key>
+  <string>http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer</string>
+  <key>LocatorFields</key>
+  <string>Street,City,State,Zip</string>
+  <key>ZoomFactor</key>
+  <string>0.2</string>
+
+  <!-- Violation Details display fields sequence -->
+  <key>ViolationDetailsDisplayFields</key>
+  <array>
+    <string>VIOLATIONID</string>
+    <string>FULLADDR</string>
+    <string>LOCDESC</string>
+    <string>VIOLATETYPE</string>
+    <string>VIOLATEDESC</string>
+    <string>VISABLE</string>
+    <string>CODE</string>
+    <string>SUBMITDT|date</string>
+    <string>STATUS</string>
+  </array>
+
+  <!-- Inspection Details display fields sequence -->
+  <key>InspectionDetailsDisplayFields</key>
+  <array>
+    <string>WORKKEY</string>
+    <string>INSPECTOR</string>
+    <string>NOTES</string>
+    <string>PHOTO|image</string>
+    <string>CONTACTOWN</string>
+    <string>ACTION</string>
+    <string>INSSTART|date</string>
+  </array>
+
+  <!-- Search results display fields -->
+  <key>ViolationsDisplayFields</key>
+  <array>
+    <string>VIOLATETYPE</string>
+    <string>FULLADDR</string>
+  </array>
+
+  <!-- Violation type field -->
+
+  <key>ViolationTypeField</key>
+  <string>VIOLATETYPE</string>
+
+  <!-- Status field -->
+
+  <key>StatusField</key>
+  <string>STATUS</string>
+
+</dict>

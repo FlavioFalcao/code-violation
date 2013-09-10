@@ -1,0 +1,93 @@
+/* AddNewInspection Item */
+"AddNewInspection" = "Add New Inspection";
+
+/* Back Item */
+"Back" = "Back";
+
+/* Basemaps Item */
+"Basemaps" = "Basemaps";
+
+/* CheckConfigURL Item */
+"CheckConfigURL" = "Please check configuration file URL";
+
+/* CodeViolations Item */
+"CodeViolations" = "Code Violations";
+
+/* ConnectionErrorAlert Item */
+"ConnectionErrorAlert1" = "This application requires a connection to the internet. Please turn off Airplane mode or check your network connection";
+
+/* EditInspection Item */
+"EditInspection" = "Edit Inspection";
+
+/* EnterValidData Item */
+"EnterValidData" = "Enter valid data";
+
+/* ErrorTitle Item */
+"ErrorTitle" = "Error";
+
+/* LoadingMap String */
+"Loading Map" = "Loading Map...";
+
+/* LoadingViolations Item */
+"LoadingViolations" = "Loading Violations...";
+
+/* LocatorFailed Item */
+"LocatorFailed" = "Unable to locate";
+
+/* NoData Item */
+"NoData" = "No Data";
+
+/* Noofcharactersexceeded Item */
+"Noofcharactersexceeded" = "No of characters exceeded max allowed";
+
+/* NoResultsFoundByLocator Item */
+"NoResultsFoundByLocator" = "No results found for the address";
+
+/* OKTitle Item */
+"OK" = "OK";
+
+/* OKTitle Item */
+"OKTitle" = "OK";
+
+/* Pleaseenterdetailsinallthefields Item */
+"Pleaseenterdetailsinallthefields" = "Please fill all fields";
+
+/* PointOutsideMapExtent Item */
+"PointOutsideMapExtent" = "Current location of device is outside Map extent";
+
+/* QueryTaskfailwitherror Item */
+"QueryTaskfailwitherror" = "Query Task failed with error";
+
+/* UnableToLoadConfig Item */
+"UnableToLoadConfig" = "Unable to load Configuration data";
+
+/* ViolationsTitleString */
+"Violations" = "Violations";
+
+/* NoResultsFoundforViolationType Item */
+"NoResultsFoundforViolationType" = "No results found for the violation type";
+
+/*DoyouWanttoSavetheChanges Item*/
+"DoyouWanttoSavetheChanges" = "Changes made would be lost.\n Do you want to continue?";
+
+/*ResultsFoundAreOutsideMap Item*/
+"ResultsFoundAreOutsideMap" = "Results are outside Map extent";
+
+/* UnabletodetectcurrentlocationString */
+"Unable to detect current location" = "Unable to detect current location";
+
+/* UnabletodetectlocationduetonetworkissuesString */
+"Unable to detect location due to network issues" = "Unable to detect location due to network connectivity";
+
+/* enablelocationservicesinsettingsString */
+"Please enable location services in Settings" = "Please enable location services in Device Settings";
+
+/*RequestTimedOut Item*/
+"RequestTimedOut" = "Request Timed Out";
+
+/*StartDateCantBeGreaterThenEndDate Item*/
+"StartDateCantBeGreaterThenEndDate" = " End Date can not be Older than Submitted Date";
+
+/*UnableToGetResult Item*/
+
+"UnableToGetResult" = " Unable to complete operation.\n Please try again.";
