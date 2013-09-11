@@ -41,7 +41,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>ConfigFileURL</key>
-	<string>http://tryitlive.arcgis.com/CodeViolationConfig/Confighost.xml</string>
+	<string>http://tryitlive.arcgis.com/codeviolationconfig/config.xml</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSMainNibFile</key>
