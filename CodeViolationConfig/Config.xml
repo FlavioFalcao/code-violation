@@ -23,11 +23,11 @@
   <key>HybridBaseMapURL</key>
   <string>http://tryitlive.arcgis.com/arcgis/rest/services/ImageryHybrid/MapServer</string>
   <key>ViolationFeatureLayerURL</key>
-  <string>http://tryitlive.arcgis.com/arcgis/rest/services/LandUseViolations/FeatureServer/0</string>
+  <string>http://services.arcgis.com/b6gLrKHqgkQb393u/ArcGIS/rest/services/LandUseViolationsTryItLive/FeatureServer/0</string>
   <key>InspectionFeatureLayerURL</key>
-  <string>http://tryitlive.arcgis.com/arcgis/rest/services/LandUseViolations/FeatureServer/1</string>
+  <string>http://services.arcgis.com/b6gLrKHqgkQb393u/ArcGIS/rest/services/LandUseViolationsTryItLive/FeatureServer/0</string>
   <key>ViolationsMapServerURL</key>
-  <string>http://tryitlive.arcgis.com/arcgis/rest/services/LandUseViolations/MapServer/</string>
+  <string>http://services.arcgis.com/b6gLrKHqgkQb393u/ArcGIS/rest/services/LandUseViolationsTryItLive/FeatureServer</string>
   <key>ViolationsFeatureLayerId</key>
   <string>0</string>
   <key>SummaryPanelTitle</key>

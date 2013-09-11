@@ -3,7 +3,7 @@
 
 An application that allows code enforcement officers, building officials, and zoning administrators to collect violation and related inspection information in the field.
 
-[![Image of Local Government Executive Dashboard application](https://raw.github.com/Esri/executive-dashboard/master/executive-dashboard.png "Executive Dashboard application")](http://localgovtemplates2.esri.com/ExecutiveDashboardTryItLive/)
+[![Image of Local Government Code Violation application](https://raw.github.com/Esri/code-violation/master/code-violation-thumb.png "Code Violation for iOS application")]
 
 ## Features
 
