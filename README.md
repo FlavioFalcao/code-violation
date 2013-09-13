@@ -56,7 +56,7 @@ Please see our [guidelines for contributing](https://github.com/esri/contributin
 
 ## Licensing
 
-Copyright 2012 Esri
+Copyright 2013 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -73,5 +73,5 @@ limitations under the License.
 A copy of the license is available in the repository's
 [LICENSE.txt](https://raw.github.com/Esri/code-violation/master/LICENSE.txt) file.
 
-[](Esri Tags: Local-Government Local Code Violation)
+[](Esri Tags: Local-Government Local Government Code Violation)
 [](Esri Language: Objective-C)
