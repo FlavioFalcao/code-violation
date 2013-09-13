@@ -1,0 +1,9 @@
+# Tools, notes, outputs
+__*.*
+__*
+
+# X-code
+xcuserdata
+
+# Snap backups
+*.7z
