@@ -3,7 +3,7 @@
 
 An application that allows code enforcement officers, building officials, and zoning administrators to collect violation and related inspection information in the field.
 
-![Image of Local Government Code Violation application](https://raw.github.com/Esri/code-violation/master/code-violation-thumb.png "Code Violation for iOS application")
+![Image of Local Government Code Violation application](code-violation-thumb.png "Code Violation for iOS application")
 
 ## Features
 
